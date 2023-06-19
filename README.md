@@ -1,11 +1,11 @@
-About r-loader.ecoms
-====================
+About r-loader.ecoms-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-loader.ecoms-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/SantanderMetGroup/climate4R
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-loader.ecoms-feedstock/blob/main/LICENSE.txt)
 
 Summary: Enables harmonized access via OPeNDAP to hindcast and other climate databases of the FP-7 ECOMS consortium, stored at the Santander MetGroup's User Data Gateway (<http://meteo.unican.es/ecoms-udg>), as described in Cofiño et al 2017 <http://dx.doi.org/10.1016/j.cliser.2017.07.001>. Previous registration via the Santander MetGroup's THREDDS Administration Panel (TAP) is required. Data access is regulated through a fine-grained authorization scheme depending on data access policies, although permission for the PUBLIC role is granted by default. Go to <http://meteo.unican.es/ecoms-udg/dataserver/registration> for more details.
 
