@@ -1,4 +1,4 @@
-{% set version = '1.4.6' %}
+{% set version = '1.4.7' %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -8,11 +8,11 @@ package:
 
 source:
   url: https://github.com/SantanderMetGroup/loadeR.ECOMS/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: c4d60aa11fffa8fe3766a91a69a19c416b6bcf0dcc35a163f5097f0fdf729c1e
+  sha256: 1862791bd81fe53828efd4167114e42ba884c064d71d226be0eb2db75bdd8c2c
 
 build:
   merge_build_host: True  # [win]
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
