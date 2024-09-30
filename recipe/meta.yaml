@@ -1,6 +1,5 @@
 {% set version = '1.4.8' %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-loader.ecoms
@@ -11,8 +10,7 @@ source:
   sha256: 0dc57140cc050e8cbe80a5db5f76f7214ae63a0776c844f2e1af8bb6d8818abf
 
 build:
-  merge_build_host: True  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
